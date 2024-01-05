@@ -88,6 +88,23 @@ body {
     margin-bottom: 56px;
 }
 
+.promo.pizza {
+    background-image: url('../img/pizza.png');
+}
+
+.promo.kebab {
+    background-image: url('../img/kebab.png');
+}
+
+.promo.vegetables {
+    background-image: url('../img/vegetables.png');
+}
+
+.promo.sushi {
+    background-image: url('../img/sushi.png');
+}
+
+
 .promo-title {
     font-style: normal;
     font-weight: bold;
@@ -377,7 +394,6 @@ body {
     line-height: 23px;
 }
 
-
 .modal-auth {
     position: fixed;
     left: 0;
@@ -396,7 +412,6 @@ body {
     display: flex;
 }
 
-
 .modal-auth .modal-dialog {
     max-width: 780px;
     width: 95%;
@@ -405,7 +420,6 @@ body {
     margin: auto;
     padding: 40px 45px;
 }
-
 
 .modal-auth .modal-header {
     display: flex;
@@ -517,16 +531,11 @@ body {
     width: 100%; 
 }
 
-
-
 .menu-item-price-bold {
     font-weight: bold;
     font-size: 18px;
     line-height: 32px;
 }
-
-
-
 
 @media (max-width: 1366px) {
     .container {

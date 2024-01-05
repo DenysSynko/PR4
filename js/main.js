@@ -175,3 +175,10 @@ cardsRestaurants.addEventListener('click', openGoods);
 logo.addEventListener('click', closeGoods);
 
 createCardRestaurant();
+
+new Swiper('.swiper-container', {
+	sliderPerView: 1,
+	loop: true,
+	autoplay: true,
+	effect: 'flip'
+})
